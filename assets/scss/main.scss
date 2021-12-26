@@ -134,6 +134,29 @@ body {
         }
     }
 
+    #hamburger-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #575757;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        z-index: 100;
+        
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        .navigation {
+            display: none;
+        }
+    }
 }
 
 .slide {
