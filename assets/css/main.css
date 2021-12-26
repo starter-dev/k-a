@@ -63,6 +63,7 @@ body {
   padding: 100px;
   font-weight: bold;
   font-size: 1.3rem;
+  margin-right: 0;
 }
 
 .container .navigation ul {
@@ -201,6 +202,20 @@ body {
   .container #hamburger-btn {
     display: block;
     background: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 2px;
+    padding: 2px;
   }
   .container .navigation {
     display: block;
@@ -225,6 +240,7 @@ body {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
        -moz-box-orient: vertical;
