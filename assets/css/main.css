@@ -262,6 +262,21 @@ body {
   .container .navigation ul li a:hover {
     color: #a5a4a4;
   }
+  .container .wedding-details .message {
+    font-size: 1.8rem;
+  }
+  .container .wedding-details .wedding-date div:nth-child(1) {
+    font-size: 3.3rem;
+  }
+  .container .wedding-details .wedding-date div:nth-child(2) {
+    font-size: 2.7rem;
+  }
+  .container .wedding-details .zoom {
+    font-size: 1.7rem;
+  }
+  .container .wedding-details .monetary {
+    font-size: 1.7rem;
+  }
 }
 
 .slide .form {
