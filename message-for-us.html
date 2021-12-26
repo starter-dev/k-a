@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/toolslide.min.css">
+    <script src="./assets/js/toolslide.min.js"></script>
+    <title>Homepage</title>
+</head>
+<body>
+    <div class="ts-embed-container slide">
+        <div id="toolslide">
+            <div class="ts-container">
+            <div class="ts-nav-container">
+                
+            </div>
+            <div class="ts-content-container">
+                <div id="first" class="ts-content-item form">
+                    <div class="example-panel form-item">
+                        <label class="file-label">Name/Nickname</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="example-panel form-item" style="margin-top: 30px;">
+                        <label class="file-label">Your Message</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="example-panel form-item" style="margin-top: 30px;">
+                        <input type="file" id="file" style="display: none;">
+                        <label class="button" for="file">
+                            <!-- Heroicons: outline/plus -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                            </svg>
+                              Attach a file
+                        </label>
+                    </div>
+                    <div class="example-panel form-item" style="margin-top: 30px;">
+                        <button>
+                            <!-- Heroicons: outline/check -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                            Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>  
+        </div>
+        <div id="main">
+            <div class="container">
+                <div class="for-us">
+                    <div>Your Message For Us</div>
+                    <div>
+                        We are kindly asking you to send us a short message that we will never forget. You can also upload here the screenshots of the wedding or a snap of you while watching the streaming. 
+                    </div>
+                    <button id="toggle-menu-button" class="pull-left">Click here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var toolslide = toolslide("#toolslide", {
+            toggleButton: "#toggle-menu-button",
+            startOpen: true,
+            embed: true
+        });
+    </script>
+</body>
+</html>
