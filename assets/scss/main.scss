@@ -215,6 +215,31 @@ body {
                 }
             }
         }
+
+        .wedding-details {
+    
+            .message {
+                font-size: 1.8rem;
+            }
+    
+            .wedding-date {
+                div:nth-child(1) {
+                    font-size: 3.3rem;
+                }
+    
+                div:nth-child(2) {
+                    font-size: 2.7rem;
+                }
+            }
+    
+            .zoom {
+                font-size: 1.7rem;
+            }
+    
+            .monetary {
+                font-size: 1.7rem;
+            }
+        }
     }
 }
 
