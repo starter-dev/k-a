@@ -188,6 +188,12 @@ body {
   .container .navigation {
     display: none;
   }
+  .container .title {
+    font-size: 5rem;
+  }
+  .container .subheading {
+    font-size: 1rem;
+  }
 }
 
 .slide .form {
